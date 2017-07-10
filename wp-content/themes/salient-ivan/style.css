@@ -1,0 +1,68 @@
+/*
+Theme Name: Salient Child Theme (redux)
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+@import url("../salient/style.css");
+
+.container.main-content {
+padding-top: 10px;
+}
+
+#header-bg-pattern {
+  width: 100%;
+  background-color: #7b8050;
+  background-image: url('http://belovedivan.org/wp-content/uploads/2015/10/african_pattern_1_tile-c.png');
+  background-repeat: repeat-x;
+  height: 15px;
+}
+
+.light h1, .light h2, .light h3, .light h4, .light h5, .light h6, .light p {
+    text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.nectar-button span {
+    text-shadow: 1px 1px 3px rgb(0,0,0);
+}
+
+.dropcap {
+  color:#c2332b;
+  float: left;
+  font-size:80px;
+  line-height: 60px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: -2px;
+}
+
+i.homepage-facebook {
+  color: #444;
+  background: none;
+  font-size: 22px;
+  padding-right: none;
+  display: inline;
+}
+
+._1drm {
+  background: none !important;
+}
+
+._1drm._1b90, ._1drm._1ds4 {
+  border: none !important;
+}
+
+ul.sidebar-difference {
+  list-style: initial;
+  list-style-type: circle;
+}
+
+ul.sidebar-difference li {
+  list-style: initial !important;
+  list-style-type: circle !important;
+}
